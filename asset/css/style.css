@@ -1,6 +1,6 @@
 
       .landing-page {
-        background-image: url("asset/gambar/beaground.jpg");
+        background-image: url("../gambar/beaground.jpg");
         background-size: cover;
         background-position: center;
         height: 100vh;
@@ -24,6 +24,7 @@
         font-size: 7rem;
         font-weight: 700;
         margin-bottom: 1rem;
+        
       }
       @media (min-width: 300px) {
         .custom-h1 {
