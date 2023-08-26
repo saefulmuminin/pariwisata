@@ -1,0 +1,52 @@
+
+      .landing-page {
+        background-image: url("asset/gambar/beaground.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .overlay {
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+      }
+      .centered-text {
+        text-align: center;
+        z-index: 1;
+      }
+      .custom-h1 {
+        font-size: 7rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      @media (min-width: 300px) {
+        .custom-h1 {
+          font-size: 2rem;
+        }
+      }
+      @media (min-width: 576px) {
+        .custom-h1 {
+          font-size: 4rem;
+        }
+      }
+      @media (min-width: 768px) {
+        .custom-h1 {
+          font-size: 5rem;
+        }
+      }
+      @media (min-width: 992px) {
+        .custom-h1 {
+          font-size: 6rem;
+        }
+      }
+      @media (min-width: 1200px) {
+        .custom-h1 {
+          font-size: 7rem;
+        }
+      }

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Responsive Bootstrap Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg shadow z-3 position-fixed w-100 bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#hero">Indramayu</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galery">Galery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#berita">berita</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">footer</a>
+              </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="landing-page" id="home">
+      <div class="overlay"></div>
+      <div class="centered-text">
+        <h1 class="custom-h1 shadow text-white">WISATA INDRAMAYU</h1>
+      </div>
+    </div>
+
+    <div class="container mt-5" id="galery">
+        <h1 class="text-center mb-4">Galery Wisata Indramayu</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card">
+            <div class="position-relative">
+              <img
+                src="asset/gambar/karangsong.jpg"
+                class="card-img"
+                alt="Karangsong"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end"
+              >
+                <h5 class="card-title text-white">Karangsong</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="position-relative">
+              <img
+                src="asset/gambar/Pantai-Glayem.jpg"
+                class="card-img"
+                alt="Image 1"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end"
+              >
+                <h5 class="card-title text-white">Pantai-Glayem</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="position-relative">
+              <img
+                src="asset/gambar/Pulau-Biawak.jpg"
+                class="card-img"
+                alt="Image 1"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end"
+              >
+                <h5 class="card-title text-white">Pulau-Biawak</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="position-relative">
+              <img
+                src="asset/gambar/tirtamaya.webp"
+                class="card-img"
+                alt="Image 1"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end"
+              >
+                <h5 class="card-title text-white">Pantai-tirtamaya</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="position-relative">
+              <img
+                src="asset/gambar/Waduk-Cipancuh.jpg"
+                class="card-img"
+                alt="Image 1"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end"
+              >
+                <h5 class="card-title text-white">Waduk-Cipancuh</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="position-relative">
+              <img
+                src="asset/gambar/waterfak.webp"
+                class="card-img"
+                alt="Image 1"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end"
+              >
+                <h5 class="card-title text-white">Agung Fantasi Waterpark</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5" id="berita">
+        <h1 class="text-center mb-4">berita Terkini</h1>
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <div class="card mb-4">
+            <img
+              src="asset/gambar/images (1).jpeg"
+              class="card-img-top"
+              alt="Image 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                20 Tempat Wisata di Indramayu Terbaru & Paling Hits
+              </h5>
+              <p class="card-text">
+                Inilah Daftar Tempat Wisata Populer di Indramayu, Jawa Barat.
+                Destinasi Wisata Alam Terbaru, Kekinian dan Terhits yang Menarik
+                Anda Kunjungi Ketika Berencana Liburan ke Indramayu.
+              </p>
+              <a
+                href="https://www.libur.co/tempat-wisata-indramayu"
+                class="btn btn-primary"
+                >lihat selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card mb-4">
+            <img
+              src="asset/gambar/download.jpeg"
+              class="card-img-top"
+              alt="Image 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Harga Tiket Masuk Pantai Tirta Ayu, Tempat Wisata Hits di
+                Indramayu dengan Vibes ala Bali
+              </h5>
+              <p class="card-text">
+                Salah satu tempat wisata pantai di Indramayu yang lagi hits
+                yaitu Pantai Pantai Tirta Ayu memiliki vibes ala pantai yang ada
+                di Bali.
+              </p>
+              <a
+                href="https://travel.tribunnews.com/amp/2023/08/25/harga-tiket-masuk-pantai-tirta-ayu-tempat-wisata-hits-di-indramayu-dengan-vibes-ala-bali"
+                class="btn btn-primary"
+                >selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card mb-4">
+            <img
+              src="asset/gambar/download (1).jpeg"
+              class="card-img-top"
+              alt="Image 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Upaya Mencegah Abrasi yang Mengintai Pantai Tirta Ayu Indramayu
+              </h5>
+              <p class="card-text">
+                Desiran air laut perlahan mengikis lahan pesisir Kabupaten
+                Indramayu, Jawa Barat. Salah satunya abrasi yang mengintai objek
+                wisata Pantai Tirta Ayu.
+              </p>
+              <a
+                href="https://www.detik.com/jabar/berita/d-6891436/upaya-mencegah-abrasi-yang-mengintai-pantai-tirta-ayu-indramayu/amp"
+                class="btn btn-primary"
+                >selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer" class="bg-dark text-white text-center py-3 w-full">
+      <div class="container">
+        <p class="mb-0">© 2023 Your Website. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
